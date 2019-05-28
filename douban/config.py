@@ -1,5 +1,12 @@
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
+#..................................................
+# File Name     : config.py
+# Author        : HuMingJun
+# Mail          : humingk@qq.com
+# QQ            : 764824480
+# Created Time  : Fri 19 Otc 2018 04:11:12 PM DST
+# Last Modified : Mon 29 Otc 2018 11:29:51 PM DST
+#..................................................
+
 import random
 
 # Mysql

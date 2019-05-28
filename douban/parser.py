@@ -1,13 +1,17 @@
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
+#..................................................
+# File Name     : fetcher.py
+# Author        : HuMingJun
+# Mail          : humingk@qq.com
+# QQ            : 764824480
+# Created Time  : Fri 19 Otc 2018 04:20:20 PM DST
+# Last Modified : Thu 25 Otc 2018 11:01:52 PM DST
+#..................................................
 
 import json
 from lxml import etree
 import re
 import random
-import spider
-
-
+import douban_movie.spider as spider
 
 class parser(spider.Parser):
 

@@ -1,5 +1,11 @@
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
+#..................................................
+# File Name     : fetcher.py
+# Author        : HuMingJun
+# Mail          : humingk@qq.com
+# QQ            : 764824480
+# Created Time  : Fri 19 Otc 2018 04:20:20 PM DST
+# Last Modified : Thu 25 Otc 2018 10:51:15 PM DST
+#..................................................
 import re
 import string
 import requests
@@ -7,9 +13,8 @@ import requests.adapters
 import random
 from lxml import etree
 import json
-import spider
-import douban.config as config
-
+import douban_movie.spider as spider
+import douban_movie.douban.config as config
 
 class fetcher(spider.Fetcher):
 

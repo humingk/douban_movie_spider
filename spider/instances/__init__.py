@@ -1,10 +1,13 @@
-# _*_ coding: utf-8 _*_
+#..................................................
+# File Name     : __init__.py
+# Author        : HuMingJun
+# Mail          : humingk@qq.com
+# QQ            : 764824480
+# Created Time  : Fri 12 Otc 2018 09:12:16 AM DST
+# Last Modified : Fri 21 Dec 2018 05:41:39 PM DST
+#..................................................
 
-"""
-define instances of url_fetch, htm_parse, item_save and proxies for web_spider
-"""
-
-from .inst_fetch import Fetcher
-from .inst_parse import Parser
-from .inst_save import Saver
-from .inst_proxies import Proxieser
+from .proxies import Proxieser
+from .parse import Parser
+from .fetch import Fetcher
+from .save import Saver
